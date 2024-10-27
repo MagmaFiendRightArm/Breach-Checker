@@ -1,4 +1,3 @@
-# README for Password Breach Checker
 
 ## Overview
 Checks if a password has been involved in data breaches using the HaveIBeenPwned API and checks if an email or username has been involved in breaches using the BreachDirectory API.
