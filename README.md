@@ -1,12 +1,13 @@
 # README for Password Breach Checker
 
 ## Overview
-checks if a password has been involved in data breaches using the HaveIBeenPwned API.
+Checks if a password has been involved in data breaches using the HaveIBeenPwned API and checks if an email or username has been involved in breaches using the BreachDirectory API.
 
 ## Features
 - **Password Check**: Uses the HaveIBeenPwned API to see if your password has been leaked.
-- **User Input**: You can enter any password you want to check.
-- **Clear Output**: Tells you if the password has been seen in breaches.
+- **Email/Username Check**: Utilizes the BreachDirectory API to check for compromised accounts.
+- **User Input**: You can enter any password, email, or username you want to check.
+- **Clear Output**: Tells you if the password or account has been seen in breaches.
 
 ## Requirements
 - Python 3.x
